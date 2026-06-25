@@ -109,11 +109,11 @@ button:hover {
 }
 
 .modules-left {
-    margin-left: 17;
+    margin-left: 12;
 }
 
 .modules-right {
-    margin-right: 17;
+    margin-right: 12;
 }
 
 /* If workspaces is the leftmost module, omit left margin */
