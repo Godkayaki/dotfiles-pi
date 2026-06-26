@@ -112,6 +112,7 @@ if ! shopt -oq posix; then
   fi
 fi
 
-neofetch
+# neofetch
+fastfetch
 
 export PS1='\[\033[01;34m\]\w\[\033[0;31m\]$(__git_ps1 " (߂ %s)")\[\033[37m\] ❯\[\033[00m\] '
