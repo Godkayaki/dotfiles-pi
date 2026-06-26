@@ -7,7 +7,8 @@
     "spacing": 4, // Gaps between modules (4px)
     // Choose the order of the modules
     "modules-left": [
-        "custom/power"
+        "custom/power",
+        "custom/docker"
         /*"sway/language",
         "sway/mode",
         "sway/scratchpad",*/
@@ -214,5 +215,10 @@
 			"suspend": "systemctl suspend",
 			"hibernate": "systemctl hibernate"
 		}
+    },
+    "custom/docker": {
+        "exec": "~/.config/waybar/scripts/waybar-docker-status.py",
+        "return-type": "json",
+        "interval": 60
     }
 }

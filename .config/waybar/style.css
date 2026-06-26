@@ -48,7 +48,7 @@ button:hover {
     padding: 0 8px 0 8px;
     background-color: #1f1f28;
     color: #ffffff;
-    border-radius: 8px;
+    border-radius: 14px;
 }
 
 #workspaces button:hover {
@@ -69,6 +69,7 @@ button:hover {
     box-shadow: inset 0 -3px #ffffff;
 }
 
+#custom-docker,
 #clock,
 #battery,
 #cpu,
