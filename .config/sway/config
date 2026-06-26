@@ -22,7 +22,8 @@ set $right l
 # Your preferred terminal emulator
 set $term foot
 # Your preferred application launcher
-set $menu "rofi -show drun"
+# set $menu "rofi -show drun"
+set $menu "/bin/bash /home/anakin/.config/rofi/launchers/type-1/launcher.sh"
 
 include /etc/sway/config-vars.d/*
 
